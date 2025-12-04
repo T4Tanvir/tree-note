@@ -1,0 +1,9 @@
+enum ActionType {
+  ADD_FOLDER = "ADD_FOLDER",
+  ADD_FILE = "ADD_FILE",
+  RENAME_FOLDER = "RENAME_FOLDER",
+  RENAME_FILE = "RENAME_FILE",
+  DELETE_FOLDER = "DELETE_FOLDER",
+  DELETE_FILE = "DELETE_FILE",
+}
+export default ActionType;
